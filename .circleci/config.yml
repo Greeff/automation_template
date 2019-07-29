@@ -9,6 +9,8 @@ jobs:
       # specify the version you desire here
       - image: circleci/ruby:2.4.1-node-browsers
 
+      - image: ismaelqueiroz/sonar-scanner
+
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
@@ -34,4 +36,9 @@ jobs:
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}     
+        
+      - run_scan:
+          command: |
+            sonar-scanner -v
+            
