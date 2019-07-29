@@ -38,7 +38,7 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}     
         
-      - run_scan:
+      - run:
           command: |
             sonar-scanner -v
             
