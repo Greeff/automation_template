@@ -1,6 +1,6 @@
 # Cucumber framework templates
 
-##Build status  
+## Build status  
 [![CircleCI](https://circleci.com/gh/Greeff/automation_template/tree/master.svg?style=svg)](https://circleci.com/gh/Greeff/automation_template/tree/master)  
 [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=Greeff_automation_template)
 
