@@ -24,8 +24,8 @@ class Generic
     # be returned for further processing e.g. to be used in verification methods
     def debug(option=nil, &block)
       begin
-        if !option.nil?
-          raise(yield.to_s) unless yield.success? if !ENV['STRICT'].nil?
+        if !option.nil? && !ENV['STRICT'].nil?
+          raise(yield.to_s) unless yield.success?
         end
         yield
       rescue => e
