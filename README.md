@@ -32,3 +32,8 @@ Great, Will you be testing Graphical User Interface apps, API apps or both?
 GUI = Run this script: <Script name> <Add LINK to script readme>  
 API = Run this script: <Script name> <Add LINK to script readme>  
 Both = Run this script: <Script name> <Add LINK to script readme>  
+
+# Credits
+
+Romeo Ledesma - strong use of Method missing, provided inspiration for clean implementation of one-liner steps  
+Dono Greeff - Idea of having a template that can be called with a simple command to then build out a best practice framework. 
