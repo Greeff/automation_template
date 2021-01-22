@@ -36,7 +36,6 @@ GEM
     mini_portile2 (2.4.0)
     multi_json (1.13.1)
     multi_test (0.1.2)
-    mysql2 (0.5.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     parallel (1.17.0)
@@ -68,10 +67,9 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber
-  mysql2
   parallel_tests
   poltergeist
   site_prism
 
 BUNDLED WITH
-   1.17.3
+   2.2.6
