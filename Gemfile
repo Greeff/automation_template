@@ -4,7 +4,6 @@ source 'https://rubygems.org/'
 gem 'cucumber'
 gem 'capybara'
 gem 'parallel_tests'
-gem 'mysql2'
 
 # GUI gems
 gem 'site_prism'
